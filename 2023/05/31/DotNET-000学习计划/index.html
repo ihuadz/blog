@@ -1,0 +1,810 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://s2.loli.net/2023/05/19/9f3ZWDgT4dknqS5.png">
+  <link rel="icon" href="https://s2.loli.net/2023/05/19/9f3ZWDgT4dknqS5.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="珩宇">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content=".NET学习计划因为要上班，学习的时候总是东一榔头西一斧头的，导致啥啥都学不好，还经常忘记，本篇文章暂拟一个计划，深入学习DotNET。由于是空余时间学习，就按照这个计划推进吧，在学习过程中逐渐优化，加油吧！ 计划 确定学习目标：  了解.Net平台的概念和组成部分   学习 C# 编程语言。   掌握 ASP.NET Core 开发。   学习使用 Entity Framework Core 进">
+<meta property="og:type" content="article">
+<meta property="og:title" content=".NET学习计划">
+<meta property="og:url" content="https://www.hengyu.club/2023/05/31/DotNET-000%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/index.html">
+<meta property="og:site_name" content="珩宇">
+<meta property="og:description" content=".NET学习计划因为要上班，学习的时候总是东一榔头西一斧头的，导致啥啥都学不好，还经常忘记，本篇文章暂拟一个计划，深入学习DotNET。由于是空余时间学习，就按照这个计划推进吧，在学习过程中逐渐优化，加油吧！ 计划 确定学习目标：  了解.Net平台的概念和组成部分   学习 C# 编程语言。   掌握 ASP.NET Core 开发。   学习使用 Entity Framework Core 进">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-05-31T01:28:00.000Z">
+<meta property="article:modified_time" content="2023-05-31T03:23:42.826Z">
+<meta property="article:author" content="珩宇">
+<meta property="article:tag" content=".Net">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>.NET学习计划 - 珩宇</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"www.hengyu.club","root":"/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"QoL6eN2KL6BWxMFtGu5BNHsq-MdYXbMMI","app_key":"T3NqWa2NSBRC9fCrgDBrreMH","server_url":"https://leancloud.hengyu.club","path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>珩宇的博客</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://s2.loli.net/2023/05/19/riYPfChAWSFVX6I.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text=".NET学习计划"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-05-31 09:28" pubdate>
+          2023年5月31日 上午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          911 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          8 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="leancloud-page-views"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar category-bar" style="margin-right: -1rem">
+    
+
+
+
+
+
+<div class="category-list">
+  
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item 
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title=".Net"
+        id="heading-b60630e3bc6c81c9a24cafeb7fa6f6e1" role="tab" data-toggle="collapse" href="#collapse-b60630e3bc6c81c9a24cafeb7fa6f6e1"
+        aria-expanded="true"
+      >
+        .Net
+        <span class="list-group-count">(2)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse show" id="collapse-b60630e3bc6c81c9a24cafeb7fa6f6e1"
+           role="tabpanel" aria-labelledby="heading-b60630e3bc6c81c9a24cafeb7fa6f6e1">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2023/05/31/DotNET-000%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/" title=".NET学习计划"
+           class="list-group-item list-group-item-action
+           active">
+          <span class="category-post">.NET学习计划</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2023/05/30/DotNET-001.Net%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/" title=".Net平台的概念和组成部分"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">.Net平台的概念和组成部分</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+
+  </aside>
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">.NET学习计划</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h1 id="NET学习计划"><a href="#NET学习计划" class="headerlink" title=".NET学习计划"></a>.NET学习计划</h1><p>因为要上班，学习的时候总是东一榔头西一斧头的，导致啥啥都学不好，还经常忘记，本篇文章暂拟一个计划，深入学习DotNET。由于是空余时间学习，就按照这个计划推进吧，在学习过程中逐渐优化，加油吧！</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ol>
+<li><p>确定学习目标：</p>
+<ul>
+<li><p><a target="_blank" rel="noopener" href="https://hengyu.club/2023/05/30/DotNET-001.Net%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/" title=".NET-001.Net平台的概念和组成部分">了解.Net平台的概念和组成部分</a> </p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/dotnet/csharp/" title="C#官方文档">学习 C# 编程语言。</a> </p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/aspnet/core/?view=aspnetcore-7.0" title="ASP.NET 文档 | Microsoft Learn">掌握 ASP.NET Core 开发。</a> </p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/ef/" title="实体框架文档中心 | Microsoft Learn">学习使用 Entity Framework Core 进行数据库开发。</a> </p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/visualstudio/?view=vs-2022" title="Visual Studio 产品系列文档 | Microsoft Learn">掌握常用的 .NET 开发工具和技术。</a></p>
+</li>
+</ul>
+</li>
+<li><p>学习基础知识：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 学习 C# 编程语言基础，包括语法、数据类型、控制流等。</li>
+<li><input disabled="" type="checkbox"> 了解面向对象编程（OOP）的基本概念和原则。</li>
+<li><input disabled="" type="checkbox"> 学习使用 Visual Studio 或者 Visual Studio Code 进行 .NET 开发。</li>
+</ul>
+</li>
+<li><p>深入学习 .NET 平台和核心概念：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 了解 .NET 平台的历史和演变。</li>
+<li><input disabled="" type="checkbox"> 学习 .NET 标准库和常用的命名空间。</li>
+<li><input disabled="" type="checkbox"> 了解 .NET Core 和 .NET Framework 的区别和共同点。</li>
+</ul>
+</li>
+<li><p>学习 ASP.NET Core 开发：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 了解 ASP.NET Core 的基本概念和架构。</li>
+<li><input disabled="" type="checkbox"> 学习使用 MVC（模型-视图-控制器）或者 Razor Pages 进行 Web 开发。</li>
+<li><input disabled="" type="checkbox"> 掌握路由、中间件、模型绑定、身份验证和授权等核心功能。</li>
+<li><input disabled="" type="checkbox"> 学习前端开发技术，如 HTML、CSS 和 JavaScript。</li>
+</ul>
+</li>
+<li><p>数据库开发：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 学习使用 Entity Framework Core 进行数据库访问和操作。</li>
+<li><input disabled="" type="checkbox"> 掌握数据库迁移和代码优先开发的概念和实践。</li>
+<li><input disabled="" type="checkbox"> 了解常见的数据库管理系统，如 SQL Server、MySQL 或者 PostgreSQL。</li>
+</ul>
+</li>
+<li><p>学习资源和实践：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 阅读官方文档和教程，如 Microsoft 的官方文档和 ASP.NET Core 文档。</li>
+<li><input disabled="" type="checkbox"> 参加在线课程或者培训班，如 Microsoft Learn 或者 Pluralsight 提供的相关课程。</li>
+<li><input disabled="" type="checkbox"> 参与开发社区和论坛，与其他开发者交流和分享经验。</li>
+<li><input disabled="" type="checkbox"> 尝试编写小型项目或者参与开源项目，实践所学知识。</li>
+</ul>
+</li>
+<li><p>学习开源框架研究源码</p>
+<ul>
+<li><input disabled="" type="checkbox"> 学习研究公司框架源码</li>
+<li><input disabled="" type="checkbox"> 学习研究Furion框架</li>
+<li><input disabled="" type="checkbox"> 学习研究FreeSql框架-与EFCore比较</li>
+</ul>
+</li>
+<li><p>持续学习和更新：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 订阅 .NET 相关的博客、新闻和邮件列表，了解最新的技术动态。</li>
+<li><input disabled="" type="checkbox"> 参与技术会议和线下活动，与其他开发者面对面交流和学习。</li>
+<li><input disabled="" type="checkbox"> 持续关注 .NET 社区的发展和新兴技术，不断扩展自己的知识面。</li>
+</ul>
+</li>
+</ol>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/Net/" class="category-chain-item">.Net</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Net/">#.Net</a>
+      
+    </div>
+  
+</div>
+
+
+              
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/05/30/DotNET-001.Net%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/" title=".Net平台的概念和组成部分">
+                        <span class="hidden-mobile">.Net平台的概念和组成部分</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="waline"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createCssLink('https://lib.baomitu.com/waline/2.14.1/waline.min.css')
+      Fluid.utils.createScript('https://lib.baomitu.com/waline/2.14.1/waline.min.js', function() {
+        var options = Object.assign(
+          {"serverURL":"https://comment.hengyu.club","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":[],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10,"placeholder":"欢迎评论~"},
+          {
+            el: '#waline',
+            path: window.location.pathname
+          }
+        )
+        Waline.init(options);
+        Fluid.utils.waitElementVisible('#waline .vcontent', () => {
+          var imgSelector = '#waline .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+      ©2023 by 珩宇 <div> <span id="timeDate">载入天数...</span> <span id="times">载入时分秒...</span> <script src="/js/duration.js"></script> </div> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="leancloud-site-pv-container" style="display: none">
+        总访问量 
+        <span id="leancloud-site-pv"></span>
+         次
+      </span>
+    
+    
+      <span id="leancloud-site-uv-container" style="display: none">
+        总访客数 
+        <span id="leancloud-site-uv"></span>
+         人
+      </span>
+    
+    
+
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script defer src="/js/leancloud.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
