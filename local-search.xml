@@ -3,30 +3,5 @@
   
   
   
-  <entry>
-    <title>我的第一篇博客</title>
-    <link href="/2023/05/19/%E7%AC%AC%E4%B8%80%E7%AF%87BLOG/"/>
-    <url>/2023/05/19/%E7%AC%AC%E4%B8%80%E7%AF%87BLOG/</url>
-    
-    <content type="html"><![CDATA[<h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><p>第一篇博客也不知道写点啥，就先写一下如何建站的吧！</p><p>首先，为啥要弄这个博客呢？</p><ul><li><p>一个程序员的好奇心</p></li><li><p>真的想学点东西</p></li><li><p>装x</p></li></ul><p>就是这几点原因造就了这个站点，下面说一下技术吧。</p><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>这就不用多说了，点击快速建站<a href="https://hexo.io/zh-cn/index.html" title="Hexo主页">Hexo</a>。这是我接触到的第一个博客框架，没用过其他的，感觉上手还是挺简单的，官网介绍的比较详细，轻松运行。</p><h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><p>我用的是Fluid，点击<a href="https://hexo.fluid-dev.com/docs/start/#%E6%90%AD%E5%BB%BA-hexo-%E5%8D%9A%E5%AE%A2">Fluid官方介绍</a> ，各主题应该大同小异可去Hexo官网选择。</p><h2 id="站点计数与评论"><a href="#站点计数与评论" class="headerlink" title="站点计数与评论"></a>站点计数与评论</h2><p>计数和评论放在一起是因为都用到了<a href="https://www.leancloud.cn/">LeanCloud</a>，一个基于Docker的云计算平台，分国内版和海外版，我用的是海外版，因为不需要实名。计数和评论都调用了此平台的API，网上有很多其他博主写的详细教程。</p><p>评论功能还用到了<a href="https://vercel.com/dashboard">Vercel</a>，一个网站托管服务，类似GitHub Pages，主要用它部署了<a href="https://waline.js.org/">Waline</a>，一款简洁安全的评论系统，挺牛的系统，登录、回复、表情、图片、管理评论啥啥都有。</p><h2 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h2><p>之前申请过阿里、腾讯的域名，那一个麻烦申请过的朋友应该都清楚，也是准备建站的时候才了解到<a href="https://namesilo-china.com/">NameSilo</a>，国外的一个域名服务网站，价格低，主要是续费也是差不多价格，学习使用域名的话，这个挺好的，还可以配置50个二级域名，自己玩够够的了。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>第一次写博客，不知道写啥，慢慢学习吧。</p><p>上面说到的技术都是粗略介绍了一下，之后有时间或者有需求的话做个系列介绍。</p><p>学习的时间不多，逐渐优化完善吧。</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>其他</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>其他</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
   
 </search>
