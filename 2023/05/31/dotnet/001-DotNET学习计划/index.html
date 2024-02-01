@@ -16,27 +16,22 @@
   <meta name="author" content="珩宇">
   <meta name="keywords" content="">
   
-    <meta name="description" content="在Linux上使用Nginx部署ASP.NET Core应用本篇文章参考微软官方文章使用 Nginx 在 Linux 上托管 ASP.NET Core   准备环境 Linux版本Ubuntu22.04 .Net运行时.NetRutime8.0 代理服务器Nginx1.18.0  安装.Net123456# 运行时sudo apt-get update &amp;&amp; \sudo apt-g">
+    <meta name="description" content=".NET学习计划因为要上班，学习的时候总是东一榔头西一斧头的，导致啥啥都学不好，还经常忘记，本篇文章暂拟一个计划，深入学习DotNET。由于是空余时间学习，就按照这个计划推进吧，在学习过程中逐渐优化，加油吧！ 计划 确定学习目标：  了解.Net平台的概念和组成部分   学习 C# 编程语言。   掌握 ASP.NET Core 开发。   学习使用 Entity Framework Core 进">
 <meta property="og:type" content="article">
-<meta property="og:title" content="在Linux上使用Nginx部署ASP.NET Core应用">
-<meta property="og:url" content="https://gblog.ihuadz.top/2024/01/26/007-%E5%9C%A8Linux%E4%B8%8A%E9%83%A8%E7%BD%B2ASP.NET%20Core%E5%BA%94%E7%94%A8/index.html">
+<meta property="og:title" content=".NET学习计划">
+<meta property="og:url" content="https://gblog.ihuadz.top/2023/05/31/dotnet/001-DotNET%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/index.html">
 <meta property="og:site_name" content="ihuadz">
-<meta property="og:description" content="在Linux上使用Nginx部署ASP.NET Core应用本篇文章参考微软官方文章使用 Nginx 在 Linux 上托管 ASP.NET Core   准备环境 Linux版本Ubuntu22.04 .Net运行时.NetRutime8.0 代理服务器Nginx1.18.0  安装.Net123456# 运行时sudo apt-get update &amp;&amp; \sudo apt-g">
+<meta property="og:description" content=".NET学习计划因为要上班，学习的时候总是东一榔头西一斧头的，导致啥啥都学不好，还经常忘记，本篇文章暂拟一个计划，深入学习DotNET。由于是空余时间学习，就按照这个计划推进吧，在学习过程中逐渐优化，加油吧！ 计划 确定学习目标：  了解.Net平台的概念和组成部分   学习 C# 编程语言。   掌握 ASP.NET Core 开发。   学习使用 Entity Framework Core 进">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://gblog.ihuadz.top/img/007/01.png">
-<meta property="og:image" content="https://gblog.ihuadz.top/img/007/02.png">
-<meta property="og:image" content="https://gblog.ihuadz.top/img/007/03.png">
-<meta property="article:published_time" content="2024-01-26T06:38:17.000Z">
-<meta property="article:modified_time" content="2024-01-26T06:38:17.000Z">
+<meta property="article:published_time" content="2023-05-31T01:28:00.000Z">
+<meta property="article:modified_time" content="2023-05-31T01:28:00.000Z">
 <meta property="article:author" content="ihuadz">
 <meta property="article:tag" content=".Net">
-<meta property="article:tag" content="Aginx">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://gblog.ihuadz.top/img/007/01.png">
   
   
   
-  <title>在Linux上使用Nginx部署ASP.NET Core应用 - ihuadz</title>
+  <title>.NET学习计划 - ihuadz</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -221,7 +216,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="在Linux上使用Nginx部署ASP.NET Core应用"></span>
+            <span id="subtitle" data-typed-text=".NET学习计划"></span>
           
         </div>
 
@@ -232,8 +227,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-01-26 14:38" pubdate>
-          2024年1月26日 下午
+        <time datetime="2023-05-31 09:28" pubdate>
+          2023年5月31日 上午
         </time>
       </span>
     
@@ -244,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          439 字
+          604 字
         
       </span>
     
@@ -255,7 +250,7 @@
         
         
         
-          4 分钟
+          6 分钟
         
       </span>
     
@@ -328,16 +323,16 @@
     
       
       
-        <a href="/2023/05/31/001-DotNET-%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/" title=".NET学习计划"
+        <a href="/2023/05/31/dotnet/001-DotNET%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/" title=".NET学习计划"
            class="list-group-item list-group-item-action
-           ">
+           active">
           <span class="category-post">.NET学习计划</span>
         </a>
       
     
       
       
-        <a href="/2023/05/30/003-DotNET-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/" title=".NET面向对象编程"
+        <a href="/2023/05/30/dotnet/003-DotNET%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/" title=".NET面向对象编程"
            class="list-group-item list-group-item-action
            ">
           <span class="category-post">.NET面向对象编程</span>
@@ -346,7 +341,7 @@
     
       
       
-        <a href="/2023/05/30/002-DotNET-.Net%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/" title=".Net平台的概念和组成部分"
+        <a href="/2023/05/30/dotnet/002-DotNET%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/" title=".Net平台的概念和组成部分"
            class="list-group-item list-group-item-action
            ">
           <span class="category-post">.Net平台的概念和组成部分</span>
@@ -355,9 +350,9 @@
     
       
       
-        <a href="/2024/01/26/007-%E5%9C%A8Linux%E4%B8%8A%E9%83%A8%E7%BD%B2ASP.NET%20Core%E5%BA%94%E7%94%A8/" title="在Linux上使用Nginx部署ASP.NET Core应用"
+        <a href="/2024/01/26/dotnet/004-%E5%9C%A8Linux%E4%B8%8A%E9%83%A8%E7%BD%B2ASP.NET%20Core%E5%BA%94%E7%94%A8/" title="在Linux上使用Nginx部署ASP.NET Core应用"
            class="list-group-item list-group-item-action
-           active">
+           ">
           <span class="category-post">在Linux上使用Nginx部署ASP.NET Core应用</span>
         </a>
       
@@ -419,49 +414,79 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">在Linux上使用Nginx部署ASP.NET Core应用</h1>
+            <h1 id="seo-header">.NET学习计划</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="在Linux上使用Nginx部署ASP-NET-Core应用"><a href="#在Linux上使用Nginx部署ASP-NET-Core应用" class="headerlink" title="在Linux上使用Nginx部署ASP.NET Core应用"></a>在Linux上使用Nginx部署ASP.NET Core应用</h1><p>本篇文章参考微软官方文章<a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-8.0&tabs=linux-ubuntu">使用 Nginx 在 Linux 上托管 ASP.NET Core</a>  </p>
-<h2 id="准备环境"><a href="#准备环境" class="headerlink" title="准备环境"></a>准备环境</h2><ul>
-<li>Linux版本<code>Ubuntu22.04</code></li>
-<li>.Net运行时<code>.NetRutime8.0</code></li>
-<li>代理服务器<code>Nginx1.18.0</code></li>
+                <h1 id="NET学习计划"><a href="#NET学习计划" class="headerlink" title=".NET学习计划"></a>.NET学习计划</h1><p>因为要上班，学习的时候总是东一榔头西一斧头的，导致啥啥都学不好，还经常忘记，本篇文章暂拟一个计划，深入学习DotNET。由于是空余时间学习，就按照这个计划推进吧，在学习过程中逐渐优化，加油吧！</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ol>
+<li><p>确定学习目标：</p>
+<ul>
+<li><p><a target="_blank" rel="noopener" href="https://hengyu.club/2023/05/30/DotNET-001.Net%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/" title=".NET-001.Net平台的概念和组成部分">了解.Net平台的概念和组成部分</a> </p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/dotnet/csharp/" title="C#官方文档">学习 C# 编程语言。</a> </p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/aspnet/core/?view=aspnetcore-7.0" title="ASP.NET 文档 | Microsoft Learn">掌握 ASP.NET Core 开发。</a> </p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/ef/" title="实体框架文档中心 | Microsoft Learn">学习使用 Entity Framework Core 进行数据库开发。</a> </p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/visualstudio/?view=vs-2022" title="Visual Studio 产品系列文档 | Microsoft Learn">掌握常用的 .NET 开发工具和技术。</a></p>
+</li>
 </ul>
-<h3 id="安装-Net"><a href="#安装-Net" class="headerlink" title="安装.Net"></a>安装.Net</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">运行时</span><br>sudo apt-get update &amp;&amp; \<br>sudo apt-get install -y dotnet-runtime-8.0 <br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">Sdk</span><br>sudo apt install dotnet-sdk-8.0<br></code></pre></td></tr></table></figure>
-
-<blockquote>
-<p>安装sdk时可能会出现找不到包的情况，这时使用官方的安装脚本即可</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">下载脚本</span><br>wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">修改脚本权限</span><br>chmod +x ./dotnet-install.sh<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">安装最新版本，若需要LTS删除--version latest</span><br>./dotnet-install.sh --version latest<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_">#</span><span class="language-bash">runtime也可以用脚本安装</span><br>./dotnet-install.sh --version latest --runtime aspnetcore<br></code></pre></td></tr></table></figure>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">查看dotnet版本</span><br>dotnet --info<br></code></pre></td></tr></table></figure>
-
-<p><img src="/../img/007/01.png" srcset="/img/loading.gif" lazyload alt="shell"></p>
-<h3 id="部署Asp-Net项目"><a href="#部署Asp-Net项目" class="headerlink" title="部署Asp.Net项目"></a>部署Asp.Net项目</h3><p>本地运行OK后发布上传到服务器，这里我使用的时<code>XFtp</code>，和XShell一套挺好用的；</p>
-<p>测试应用：</p>
-<blockquote>
-<p>注意：当NETCORE的版本低于3.0时，对应的命令为<br><code>dotnet web.dll --server.urls=&quot;http://localhost:7102&quot;</code><br>当NETCORE高于等于3.0版本时<br><code>--urls &quot;http://localhost:7102&quot;</code>  </p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">Linux进入文件目录运行应用</span><br>dotnet RazorPageDemo.dll --urls &quot;http://localhost:7102&quot;<br></code></pre></td></tr></table></figure>
-
-<p><img src="/../img/007/02.png" srcset="/img/loading.gif" lazyload alt="Alt text"></p>
-<h3 id="配置nginx"><a href="#配置nginx" class="headerlink" title="配置nginx"></a>配置nginx</h3><p>nginx默认的配置路径<code>/etc/nginx/conf.d</code><br>新建文件<code>rdemo.conf</code>并添加内容</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs json">server<span class="hljs-punctuation">&#123;</span><br> listen <span class="hljs-number">7102</span>;<br> server_name *.exmple.com;<br> location /<span class="hljs-punctuation">&#123;</span><br>  proxy_pass  http<span class="hljs-punctuation">:</span><span class="hljs-comment">//127.0.0.1:7202/;</span><br> <span class="hljs-punctuation">&#125;</span><br><span class="hljs-punctuation">&#125;</span><br></code></pre></td></tr></table></figure>
-
-<p>重新加载nginx配置文件<code>nginx -s reload</code></p>
-<p>访问页面</p>
-<p><img src="/../img/007/03.png" srcset="/img/loading.gif" lazyload alt="Alt text">  </p>
-<h3 id="启动后台守护程序"><a href="#启动后台守护程序" class="headerlink" title="启动后台守护程序"></a>启动后台守护程序</h3><p>ctrl+c停止程序运行<br>创建服务定义文件：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo nano /etc/systemd/system/kestrel-rdemo.service<br></code></pre></td></tr></table></figure>
-
-<p>以下示例是应用的一个 .ini 服务文件：</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs text">[Unit]<br>Description=Example .NET Web API App running on Linux<br><br>[Service]<br>WorkingDirectory=/var/www/razorpagedemo<br>ExecStart=/usr/bin/dotnet /var/www/razorpagedemo/RazorPageDemo.dll --urls &quot;http://localhost:7202&quot;<br>Restart=always<br># Restart service after 10 seconds if the dotnet service crashes:<br>RestartSec=10<br>KillSignal=SIGINT<br>SyslogIdentifier=razorpagedemo<br>User=www-data<br>Environment=ASPNETCORE_ENVIRONMENT=Production<br>Environment=DOTNET_NOLOGO=false<br><br>[Install]<br>WantedBy=multi-user.target<br></code></pre></td></tr></table></figure>
-
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">#</span><span class="language-bash">启动服务</span><br>sudo systemctl enable kestrel-rdemo.service<br><span class="hljs-meta prompt_">#</span><span class="language-bash">运行</span><br>sudo systemctl start kestrel-rdemo.service<br><span class="hljs-meta prompt_">#</span><span class="language-bash">查看状态</span><br>sudo systemctl status kestrel-rdemo.service<br></code></pre></td></tr></table></figure>
-
-<p>OK，访问没问题就可以了，云服务器的话记得打开端口</p>
+</li>
+<li><p>学习基础知识：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 学习 C# 编程语言基础，包括语法、数据类型、控制流等。</li>
+<li><input checked="" disabled="" type="checkbox"> <a target="_blank" rel="noopener" href="https://hengyu.club/2023/05/31/DotNET-002%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/">了解面向对象编程（OOP）的基本概念和原则。</a> </li>
+<li><input checked="" disabled="" type="checkbox"> 学习使用 Visual Studio 或者 Visual Studio Code 进行 .NET 开发。</li>
+</ul>
+</li>
+<li><p>深入学习 .NET 平台和核心概念：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 了解 .NET 平台的历史和演变。</li>
+<li><input checked="" disabled="" type="checkbox"> 学习 .NET 标准库和常用的命名空间。（太多了，持续学习中…）</li>
+<li><input checked="" disabled="" type="checkbox"> 了解 .NET Core 和 .NET Framework 的区别和共同点。(最大区别，跨平台..)</li>
+</ul>
+</li>
+<li><p>学习 ASP.NET Core 开发：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 了解 ASP.NET Core 的基本概念和架构。</li>
+<li><input checked="" disabled="" type="checkbox"> 学习使用 MVC（模型-视图-控制器）或者 Razor Pages 进行 Web 开发。</li>
+<li><input checked="" disabled="" type="checkbox"> 掌握路由、中间件、模型绑定、身份验证和授权等核心功能。</li>
+<li><input checked="" disabled="" type="checkbox"> 学习前端开发技术，如 HTML、CSS 和 JavaScript。</li>
+</ul>
+</li>
+<li><p>数据库开发：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 学习使用 Entity Framework Core 进行数据库访问和操作。</li>
+<li><input disabled="" type="checkbox"> 掌握数据库迁移和代码优先开发的概念和实践。</li>
+<li><input disabled="" type="checkbox"> 了解常见的数据库管理系统，如 SQL Server、MySQL 或者 PostgreSQL。</li>
+</ul>
+</li>
+<li><p>学习资源和实践：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 阅读官方文档和教程，如 Microsoft 的官方文档和 ASP.NET Core 文档。</li>
+<li><input disabled="" type="checkbox"> 参加在线课程或者培训班，如 Microsoft Learn 或者 Pluralsight 提供的相关课程。</li>
+<li><input disabled="" type="checkbox"> 参与开发社区和论坛，与其他开发者交流和分享经验。</li>
+<li><input disabled="" type="checkbox"> 尝试编写小型项目或者参与开源项目，实践所学知识。</li>
+</ul>
+</li>
+<li><p>学习开源框架研究源码</p>
+<ul>
+<li><input disabled="" type="checkbox"> 学习研究公司框架源码</li>
+<li><input disabled="" type="checkbox"> 学习研究Furion框架</li>
+<li><input disabled="" type="checkbox"> 学习研究FreeSql框架-与EFCore比较</li>
+</ul>
+</li>
+<li><p>持续学习和更新：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 订阅 .NET 相关的博客、新闻和邮件列表，了解最新的技术动态。</li>
+<li><input disabled="" type="checkbox"> 参与技术会议和线下活动，与其他开发者面对面交流和学习。</li>
+<li><input disabled="" type="checkbox"> 持续关注 .NET 社区的发展和新兴技术，不断扩展自己的知识面。</li>
+</ul>
+</li>
+</ol>
 
                 
               </div>
@@ -497,8 +522,6 @@
       
         <a href="/tags/Net/" class="print-no-link">#.Net</a>
       
-        <a href="/tags/Aginx/" class="print-no-link">#Aginx</a>
-      
     </div>
   
 </div>
@@ -511,9 +534,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/01/26/006-%E9%9A%8F%E7%AC%94-%E4%B8%80%E6%AC%A1%E8%B4%AD%E4%B9%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E7%BB%8F%E5%8E%86/" title="一次购买服务器的经历">
+                      <a href="/2023/08/02/english/002-%E5%8A%A8%E8%AF%8D%E6%97%B6%E6%80%81%E4%BE%8B%E5%8F%A5/" title="英语动词时态例句">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">一次购买服务器的经历</span>
+                        <span class="hidden-mobile">英语动词时态例句</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -521,8 +544,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/10/30/004-ELearn-%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95%E6%9E%B6%E6%9E%84/" title="英语语法架构">
-                        <span class="hidden-mobile">英语语法架构</span>
+                      <a href="/2023/05/30/dotnet/002-DotNET%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/" title=".Net平台的概念和组成部分">
+                        <span class="hidden-mobile">.Net平台的概念和组成部分</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
