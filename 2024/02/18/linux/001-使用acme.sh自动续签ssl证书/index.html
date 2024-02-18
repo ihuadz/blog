@@ -16,23 +16,24 @@
   <meta name="author" content="珩宇">
   <meta name="keywords" content="">
   
-    <meta name="description" content="EFCore概述本系列文章参考微软官方文档：Entity Framework Core | Microsoft Learn； Entity Framework(Ef) Core是轻量化、可扩展、开源和跨平台的常用Entity Framework数据访问技术。 EF Core可用作对象关系映射程序（O&#x2F;RM），这可以实现以下两点：  使.NET开发人员能够使用.NET对象处理数据库。 无需">
+    <meta name="description" content="使用acme.sh配置SSL证书并自动续签参考官网 Home · acmesh-official&#x2F;acme.sh Wiki (github.com) acme.sh用于生成免费的ssl证书，其完整实现了acme协议，并且由纯Shell脚本语言编写，没有过多的依赖项，安装和使用都非常方便。 支持多个ssl签发平台，如Let’s Encrypt (letsencrypt.org)、Free">
 <meta property="og:type" content="article">
-<meta property="og:title" content="EFCore概述">
-<meta property="og:url" content="https://gblog.ihuadz.top/2024/02/01/ef_core/01-EFCore%E6%A6%82%E8%BF%B0/index.html">
+<meta property="og:title" content="使用acme.sh配置ssl证书并自动续签">
+<meta property="og:url" content="https://gblog.ihuadz.top/2024/02/18/linux/001-%E4%BD%BF%E7%94%A8acme.sh%E8%87%AA%E5%8A%A8%E7%BB%AD%E7%AD%BEssl%E8%AF%81%E4%B9%A6/index.html">
 <meta property="og:site_name" content="ihuadz">
-<meta property="og:description" content="EFCore概述本系列文章参考微软官方文档：Entity Framework Core | Microsoft Learn； Entity Framework(Ef) Core是轻量化、可扩展、开源和跨平台的常用Entity Framework数据访问技术。 EF Core可用作对象关系映射程序（O&#x2F;RM），这可以实现以下两点：  使.NET开发人员能够使用.NET对象处理数据库。 无需">
+<meta property="og:description" content="使用acme.sh配置SSL证书并自动续签参考官网 Home · acmesh-official&#x2F;acme.sh Wiki (github.com) acme.sh用于生成免费的ssl证书，其完整实现了acme协议，并且由纯Shell脚本语言编写，没有过多的依赖项，安装和使用都非常方便。 支持多个ssl签发平台，如Let’s Encrypt (letsencrypt.org)、Free">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-02-01T08:33:37.000Z">
-<meta property="article:modified_time" content="2024-02-01T08:33:37.000Z">
+<meta property="article:published_time" content="2024-02-18T03:28:23.000Z">
+<meta property="article:modified_time" content="2024-02-18T03:28:31.000Z">
 <meta property="article:author" content="ihuadz">
-<meta property="article:tag" content=".Net">
-<meta property="article:tag" content="EFCore">
+<meta property="article:tag" content="Aginx">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="SSL">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>EFCore概述 - ihuadz</title>
+  <title>使用acme.sh配置ssl证书并自动续签 - ihuadz</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -217,7 +218,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="EFCore概述"></span>
+            <span id="subtitle" data-typed-text="使用acme.sh配置ssl证书并自动续签"></span>
           
         </div>
 
@@ -228,8 +229,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-02-01 16:33" pubdate>
-          2024年2月1日 下午
+        <time datetime="2024-02-18 11:28" pubdate>
+          2024年2月18日 上午
         </time>
       </span>
     
@@ -240,7 +241,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          115 字
+          862 字
         
       </span>
     
@@ -251,7 +252,7 @@
         
         
         
-          1 分钟
+          8 分钟
         
       </span>
     
@@ -304,80 +305,17 @@
     
     <div class="category row nomargin-x">
       <a class="category-item 
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title=".Net"
-        id="heading-b60630e3bc6c81c9a24cafeb7fa6f6e1" role="tab" data-toggle="collapse" href="#collapse-b60630e3bc6c81c9a24cafeb7fa6f6e1"
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Linux"
+        id="heading-edc9f0a5a5d57797bf68e37364743831" role="tab" data-toggle="collapse" href="#collapse-edc9f0a5a5d57797bf68e37364743831"
         aria-expanded="true"
       >
-        .Net
-        <span class="list-group-count">(5)</span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-      <div class="category-collapse collapse show" id="collapse-b60630e3bc6c81c9a24cafeb7fa6f6e1"
-           role="tabpanel" aria-labelledby="heading-b60630e3bc6c81c9a24cafeb7fa6f6e1">
-        
-        
-          
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/2023/05/31/dotnet/001-DotNET%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/" title=".NET学习计划"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">.NET学习计划</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/05/30/dotnet/003-DotNET%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/" title=".NET面向对象编程"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">.NET面向对象编程</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2023/05/30/dotnet/002-DotNET%E5%B9%B3%E5%8F%B0%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/" title=".Net平台的概念和组成部分"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">.Net平台的概念和组成部分</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2024/01/26/dotnet/004-%E5%9C%A8Linux%E4%B8%8A%E9%83%A8%E7%BD%B2ASP.NET%20Core%E5%BA%94%E7%94%A8/" title="在Linux上使用Nginx部署ASP.NET Core应用"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">在Linux上使用Nginx部署ASP.NET Core应用</span>
-        </a>
-      
-    
-  </div>
-
-          
-  
-    
-    
-    
-    <div class="category-sub row nomargin-x">
-      <a class="category-subitem 
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="EFCore"
-        id="heading-a6c2210a26397de8fff2941aa32fe9e4" role="tab" data-toggle="collapse" href="#collapse-a6c2210a26397de8fff2941aa32fe9e4"
-        aria-expanded="true"
-      >
-        EFCore
+        Linux
         <span class="list-group-count">(1)</span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
-      <div class="category-collapse collapse show" id="collapse-a6c2210a26397de8fff2941aa32fe9e4"
-           role="tabpanel" aria-labelledby="heading-a6c2210a26397de8fff2941aa32fe9e4">
+      <div class="category-collapse collapse show" id="collapse-edc9f0a5a5d57797bf68e37364743831"
+           role="tabpanel" aria-labelledby="heading-edc9f0a5a5d57797bf68e37364743831">
         
         
           
@@ -386,19 +324,15 @@
     
       
       
-        <a href="/2024/02/01/ef_core/01-EFCore%E6%A6%82%E8%BF%B0/" title="EFCore概述"
+        <a href="/2024/02/18/linux/001-%E4%BD%BF%E7%94%A8acme.sh%E8%87%AA%E5%8A%A8%E7%BB%AD%E7%AD%BEssl%E8%AF%81%E4%B9%A6/" title="使用acme.sh配置ssl证书并自动续签"
            class="list-group-item list-group-item-action
            active">
-          <span class="category-post">EFCore概述</span>
+          <span class="category-post">使用acme.sh配置ssl证书并自动续签</span>
         </a>
       
     
   </div>
 
-        
-      </div>
-    </div>
-  
         
       </div>
     </div>
@@ -415,19 +349,73 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">EFCore概述</h1>
+            <h1 id="seo-header">使用acme.sh配置ssl证书并自动续签</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="EFCore概述"><a href="#EFCore概述" class="headerlink" title="EFCore概述"></a>EFCore概述</h1><p>本系列文章参考微软官方文档：<a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/ef/core/">Entity Framework Core | Microsoft Learn</a>；</p>
-<p>Entity Framework(Ef) Core是轻量化、可扩展、开源和跨平台的常用Entity Framework数据访问技术。</p>
-<p>EF Core可用作对象关系映射程序（O&#x2F;RM），这可以实现以下两点：</p>
-<ul>
-<li>使.NET开发人员能够使用.NET对象处理数据库。</li>
-<li>无需再像通常那样编写大部分数据访问代码。</li>
+                <h1 id="使用acme-sh配置SSL证书并自动续签"><a href="#使用acme-sh配置SSL证书并自动续签" class="headerlink" title="使用acme.sh配置SSL证书并自动续签"></a>使用acme.sh配置SSL证书并自动续签</h1><p>参考官网</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/acmesh-official/acme.sh/wiki">Home · acmesh-official&#x2F;acme.sh Wiki (github.com)</a></p>
+<p>acme.sh用于生成免费的ssl证书，其完整实现了acme协议，并且由纯Shell脚本语言编写，没有过多的依赖项，安装和使用都非常方便。</p>
+<p>支持多个ssl签发平台，如<a target="_blank" rel="noopener" href="https://letsencrypt.org/">Let’s Encrypt (letsencrypt.org)</a>、<a target="_blank" rel="noopener" href="https://zerossl.com/">Free SSL Certificates and SSL Tools - ZeroSSL</a></p>
+<p>本文使用Let’s Encrypt</p>
+<h2 id="准备环境："><a href="#准备环境：" class="headerlink" title="准备环境："></a>准备环境：</h2><ul>
+<li>域名</li>
+<li>Linux版本<code>Ubuntu22.04</code></li>
+<li>代理服务器<code>Nginx1.18.0</code></li>
+<li>acem.sh</li>
 </ul>
-<p>EF Core 支持多个数据库引擎。</p>
+<h3 id="下载安装acme-sh"><a href="#下载安装acme-sh" class="headerlink" title="下载安装acme.sh"></a>下载安装acme.sh</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">curl https://get.acme.sh | sh -s email=my@example.com<br></code></pre></td></tr></table></figure>
+
+<p>使用这个安装干了些啥</p>
+<ul>
+<li><p>部署acme.sh程序到用户文件夹</p>
+</li>
+<li><p>为脚本创建新名称<code> acme.sh=~/.acme.sh/acme.sh</code></p>
+<blockquote>
+<p>需重启终端，不想重启的话<code> .acme.sh# alias acme.sh=~/.acme.sh/acme.sh</code></p>
+</blockquote>
+</li>
+<li><p>创建一个每日定时任务，用于自动更新即将过期的证书</p>
+<p>通过<code>crontab -l</code> 查看：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">18 18 * * * &quot;/root/.acme.sh&quot;/acme.sh --cron --home &quot;/root/.acme.sh&quot; &gt; /dev/null<br></code></pre></td></tr></table></figure></li>
+</ul>
+<p>安装后目录</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">account.conf  acme.sh  acme.sh.env  deploy  dnsapi  http.header  notify<br></code></pre></td></tr></table></figure>
+
+<p>具体命令可查看官网</p>
+<h2 id="使用acme-sh配置ssl证书"><a href="#使用acme-sh配置ssl证书" class="headerlink" title="使用acme.sh配置ssl证书"></a>使用acme.sh配置ssl证书</h2><h3 id="直接指向项目"><a href="#直接指向项目" class="headerlink" title="直接指向项目"></a>直接指向项目</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">acme.sh --issue -d example.com -d test.com -w /var/www/project<br></code></pre></td></tr></table></figure>
+
+<p>-d参数指定域名，多个域名使用多个-d参数，第一个-d参数指定的域名即证书的主体名称，其它-d参数指定的域名为证书的可选主体名称。</p>
+<p>-w参数指定的是域名的webroot目录，以example.com为例，-w参数的值即是<a target="_blank" rel="noopener" href="http://example.com对应的webroot目录.如果使用多个-d参数同时指定了多个域名,则所有这些域名必须对应同一个webroot目录;另外,当前系统用户必须具有webroot目录的写入权限./">http://example.com对应的webroot目录。如果使用多个-d参数同时指定了多个域名，则所有这些域名必须对应同一个webroot目录；另外，当前系统用户必须具有webroot目录的写入权限。</a></p>
+<h3 id="DNS自动模式（建议）"><a href="#DNS自动模式（建议）" class="headerlink" title="DNS自动模式（建议）"></a>DNS自动模式（建议）</h3><p>此方法会向域名解析平台添加一个TXT记录值，需要提供对应平台的Key和Secret，具体参考<a target="_blank" rel="noopener" href="https://github.com/acmesh-official/acme.sh/blob/master/dnsapi/dns_ali.sh">acme.sh&#x2F;dnsapi&#x2F;dns_ali.sh at master · acmesh-official&#x2F;acme.sh (github.com)</a> 我使用的是dns_ali。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">#</span><span class="language-bash">切换默认平台为letsencrypt 其他更换最后平台即可</span><br>acme.sh --set-default-ca --server letsencrypt<br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p>默认的签发平台是ZeroSSL，我使用的时候想着就用默认的平台，可是一直报错<code> et authz objec with invalid status, please try again later.</code> github上有人说是ZeroSSL的dns身份认证出问题了。<a target="_blank" rel="noopener" href="https://github.com/acmesh-official/acme.sh/issues/4991">This domain won’t issue · Issue #4991 · acmesh-official&#x2F;acme.sh (github.com)</a> 所以我换成了用letsencrypt</p>
+</blockquote>
+<p>获取阿里云的Key和Secret，添加到系统环境变量</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">export Ali_Key=&quot;*******************&quot;<br>export Ali_Secret=&quot;*********************&quot;<br></code></pre></td></tr></table></figure>
+
+<p>生成证书</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">acme.sh --issue --dns dns_ali -d example.com -d www.example.com<br></code></pre></td></tr></table></figure>
+
+<p>该命令从系统变量中读取aliyun的api授权ID和密码，并通过dns_ali参数指定DNS提供商为阿里云。该命令将通过api自动为指定域名添加txt记录，并在验证完毕后自动移除txt记录。</p>
+<p>aliyun的api授权ID和密码将被保存在.acme.sh的账户配置文件中，以供将来自动更新证书时使用，存储位置为：</p>
+<p><code> ~/.acme.sh/account.conf</code></p>
+<p>通过<code> --install-cert</code>部署证书</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs shell">acme.sh --install-cert -d *.example.com \<br>--key-file       /etc/nginx/ssl/in/example.com.key  \<br>--fullchain-file /etc/nginx/ssl/fullchain.cer \<br>--reloadcmd     &quot;nginx -s reload&quot;<br></code></pre></td></tr></table></figure>
+
+<p>使用<code> acme.sh --list</code>查看证书列表</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">Main_Domain   KeyLength  SAN_Domains  CA               Created               Renew<br>*.ihuadz.top  &quot;ec-256&quot;   ihuadz.top   LetsEncrypt.org  2024-02-18T04:06:07Z  2024-04-17T04:06:07Z<br></code></pre></td></tr></table></figure>
+
+<h2 id="Nginx-部署"><a href="#Nginx-部署" class="headerlink" title="Nginx 部署"></a>Nginx 部署</h2><p>在项目对应的Nginx配置文件中添加</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs json">server <span class="hljs-punctuation">&#123;</span><br>    listen <span class="hljs-number">443</span> ssl;<br>    server_name blog.ihuadz.top;<br>    root /var/www/hexo;<br> <br>    ssl_certificate <span class="hljs-string">&quot;/etc/nginx/ssl/ihuadz.top/fullchain.cer&quot;</span>;<br>    ssl_certificate_key <span class="hljs-string">&quot;/etc/nginx/ssl/ihuadz.top/*.ihuadz.top.key&quot;</span>;<br>    ssl_session_cache shared<span class="hljs-punctuation">:</span>SSL<span class="hljs-punctuation">:</span><span class="hljs-number">1</span>m;<br>    ssl_session_timeout  <span class="hljs-number">10</span>m;<br>    ssl_ciphers HIGH<span class="hljs-punctuation">:</span>!aNULL<span class="hljs-punctuation">:</span>!MD5;<br>    ssl_prefer_server_ciphers on;<br><span class="hljs-punctuation">&#125;</span><br></code></pre></td></tr></table></figure>
+
+<p>访问<a target="_blank" rel="noopener" href="https://blog.ihuadz.top/">https://blog.ihuadz.top</a> ok。没问题</p>
+<blockquote>
+<p>不同的项目配置不同的域名和路径即可，使用泛域名的话就不用重新申请证书</p>
+</blockquote>
 
                 
               </div>
@@ -446,15 +434,8 @@
     
       <span class="category-chain">
         
-  <a href="/categories/Net/" class="category-chain-item">.Net</a>
+  <a href="/categories/Linux/" class="category-chain-item">Linux</a>
   
-  
-    <span>></span>
-    
-  <a href="/categories/Net/EFCore/" class="category-chain-item">EFCore</a>
-  
-  
-
   
 
       </span>
@@ -468,9 +449,11 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Net/" class="print-no-link">#.Net</a>
+        <a href="/tags/Aginx/" class="print-no-link">#Aginx</a>
       
-        <a href="/tags/EFCore/" class="print-no-link">#EFCore</a>
+        <a href="/tags/Linux/" class="print-no-link">#Linux</a>
+      
+        <a href="/tags/SSL/" class="print-no-link">#SSL</a>
       
     </div>
   
@@ -484,18 +467,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/02/18/linux/001-%E4%BD%BF%E7%94%A8acme.sh%E8%87%AA%E5%8A%A8%E7%BB%AD%E7%AD%BEssl%E8%AF%81%E4%B9%A6/" title="使用acme.sh配置ssl证书并自动续签">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">使用acme.sh配置ssl证书并自动续签</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/01/26/dotnet/004-%E5%9C%A8Linux%E4%B8%8A%E9%83%A8%E7%BD%B2ASP.NET%20Core%E5%BA%94%E7%94%A8/" title="在Linux上使用Nginx部署ASP.NET Core应用">
-                        <span class="hidden-mobile">在Linux上使用Nginx部署ASP.NET Core应用</span>
+                      <a href="/2024/02/01/ef_core/01-EFCore%E6%A6%82%E8%BF%B0/" title="EFCore概述">
+                        <span class="hidden-mobile">EFCore概述</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
