@@ -8,7 +8,7 @@
     <link href="/2024/02/01/ef_core/01-EFCore%E6%A6%82%E8%BF%B0/"/>
     <url>/2024/02/01/ef_core/01-EFCore%E6%A6%82%E8%BF%B0/</url>
     
-    <content type="html"><![CDATA[<h1 id="EFCore概述"><a href="#EFCore概述" class="headerlink" title="EFCore概述"></a>EFCore概述</h1><p>文章创建中</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="EFCore概述"><a href="#EFCore概述" class="headerlink" title="EFCore概述"></a>EFCore概述</h1><p>本系列文章参考微软官方文档：<a href="https://learn.microsoft.com/zh-cn/ef/core/">Entity Framework Core | Microsoft Learn</a>；</p><p>Entity Framework(Ef) Core是轻量化、可扩展、开源和跨平台的常用Entity Framework数据访问技术。</p><p>EF Core可用作对象关系映射程序（O&#x2F;RM），这可以实现以下两点：</p><ul><li>使.NET开发人员能够使用.NET对象处理数据库。</li><li>无需再像通常那样编写大部分数据访问代码。</li></ul><p>EF Core 支持多个数据库引擎。</p>]]></content>
     
     
     <categories>
