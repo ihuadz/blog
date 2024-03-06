@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>不用科学上网无阻访问github</title>
+    <link href="/2024/03/06/essays/002-GitHub%E5%8A%A0%E9%80%9F/"/>
+    <url>/2024/03/06/essays/002-GitHub%E5%8A%A0%E9%80%9F/</url>
+    
+    <content type="html"><![CDATA[<h1 id="不用科学上网无阻访问GitHub"><a href="#不用科学上网无阻访问GitHub" class="headerlink" title="不用科学上网无阻访问GitHub"></a>不用科学上网无阻访问GitHub</h1><p>相信点开这篇文章的人都很清楚GitHub是啥了，并且很可能在GitHub里尝到了不少甜头</p><p>但是有不少朋友访问GitHub时经常被拦下，下面介绍一下我自己使用了很久能正常访问GitHub的方式</p><h1 id="FastGitHub"><a href="#FastGitHub" class="headerlink" title="FastGitHub"></a>FastGitHub</h1><p>这个项目的来源呢就不多介绍了，感兴趣可以自己搜搜看，现在这个项目的地址已经404了，也不知道为啥。</p><p>运行后像这样，就可以正常访问了</p><p><img src="/../../img/20240306/fastgithub.png" alt="fastgithub"></p><p>不想使用这个的话，可以添加到windows服务</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">fastgithub.exe start<br><br>//卸载删除<br>fastgithub.ext stop<br></code></pre></td></tr></table></figure><h2 id="使用nssm"><a href="#使用nssm" class="headerlink" title="使用nssm"></a>使用nssm</h2><p>这是一个安装window服务的小工具，挺好用</p><p>将nssm.exe复制到fastgithub目录下，运行命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">nssm install FastGithub<br></code></pre></td></tr></table></figure><p>会有一个设置service的信息的弹框，输入对应信息即可</p><blockquote><p>这两个工具都能搜索到，懒得找的话留言邮箱，我会发送工具以及使用方法</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>随笔</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>随笔</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>C#实现微信扫码登录（绕过微信开发平台）</title>
     <link href="/2024/03/04/dotnet/006-%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95_%E7%BB%95%E8%BF%87%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0/"/>
     <url>/2024/03/04/dotnet/006-%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95_%E7%BB%95%E8%BF%87%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0/</url>
